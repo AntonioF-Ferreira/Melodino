@@ -55,3 +55,19 @@ body {
 .navbar.active {
     display: block;
 }
+
+
+/* Botão de favoritos */
+.heart-btn {    
+    font-size: 30px;
+    color: gray;       /* cor inicial */
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.heart-btn.favorito {
+    color: red;        /* Cor depois de clicar */
+}
+
