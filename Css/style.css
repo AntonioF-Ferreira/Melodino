@@ -1,0 +1,57 @@
+/* Estilo básico para o site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Estilo do menu hamburger */
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Estilo do Navbar */
+.navbar {
+    display: none; /* Começa escondido */
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 20px 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Quando o menu é exibido */
+.navbar.active {
+    display: block;
+}
