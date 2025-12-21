@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melodino - Home</title>
+    <title>Melodino - Criar Música</title>
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
@@ -39,18 +39,22 @@
 <textarea id="notas" name="notas" rows="10" required></textarea>
 
 <div class="notas">
-    <button type="button" class="nota-btn" data-nota="C">DO</button>
-    <button type="button" class="nota-btn" data-nota="C#">DO SUSTENIDO</button>
-    <button type="button" class="nota-btn" data-nota="D">RÉ</button>
-    <button type="button" class="nota-btn" data-nota="D#">RÉ SUSTENIDO</button>
-    <button type="button" class="nota-btn" data-nota="E">MI</button>
-    <button type="button" class="nota-btn" data-nota="F">FA</button>
-    <button type="button" class="nota-btn" data-nota="F#">FÁ SUSTENIDO</button>
-    <button type="button" class="nota-btn" data-nota="G">SOL</button>
-    <button type="button" class="nota-btn" data-nota="G#">SOL SUSTENIDO</button>
-    <button type="button" class="nota-btn" data-nota="A">LÁ</button>
-    <button type="button" class="nota-btn" data-nota="A#">LÁ SUSTENIDO</button>
-    <button type="button" class="nota-btn" data-nota="B">SI</button>
+    <!-- Teclas naturais -->
+    <button class="nota-btn" data-nota="C">C</button>
+    <button class="nota-btn" data-nota="D">D</button>
+    <button class="nota-btn" data-nota="E">E</button>
+    <button class="nota-btn" data-nota="F">F</button>
+    <button class="nota-btn" data-nota="G">G</button>
+    <button class="nota-btn" data-nota="A">A</button>
+    <button class="nota-btn" data-nota="B">B</button>
+
+    <!-- Teclas sustenidas posicionadas sobre as naturais -->
+    <button class="nota-btn sustenido" data-nota="C#">C#</button>
+    <button class="nota-btn sustenido" data-nota="D#">D#</button>
+    <button class="nota-btn sustenido" data-nota="F#">F#</button>
+    <button class="nota-btn sustenido" data-nota="G#">G#</button>
+    <button class="nota-btn sustenido" data-nota="A#">A#</button>
 </div>
+
 <script src="Js/create_song.js"></script>
 <script src="Js/navbar.js"></script>
