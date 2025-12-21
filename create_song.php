@@ -40,11 +40,16 @@
 
 <div class="notas">
     <button type="button" class="nota-btn" data-nota="C">DO</button>
+    <button type="button" class="nota-btn" data-nota="C#">DO SUSTENIDO</button>
     <button type="button" class="nota-btn" data-nota="D">RÉ</button>
+    <button type="button" class="nota-btn" data-nota="D#">RÉ SUSTENIDO</button>
     <button type="button" class="nota-btn" data-nota="E">MI</button>
     <button type="button" class="nota-btn" data-nota="F">FA</button>
+    <button type="button" class="nota-btn" data-nota="F#">FÁ SUSTENIDO</button>
     <button type="button" class="nota-btn" data-nota="G">SOL</button>
+    <button type="button" class="nota-btn" data-nota="G#">SOL SUSTENIDO</button>
     <button type="button" class="nota-btn" data-nota="A">LÁ</button>
+    <button type="button" class="nota-btn" data-nota="A#">LÁ SUSTENIDO</button>
     <button type="button" class="nota-btn" data-nota="B">SI</button>
 </div>
 <script src="Js/create_song.js"></script>
