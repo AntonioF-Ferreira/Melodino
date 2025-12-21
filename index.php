@@ -27,7 +27,7 @@
         <p>Um projeto que mistura melodias com arduíno!</p>
     </div>
 
-    <script src="Js/song.js"></script>
+    <script src="Js/navbar.js"></script>
 </body>
 </html>
 

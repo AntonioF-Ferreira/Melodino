@@ -1,8 +1,3 @@
-function toggleNavbar() {
-    var navbar = document.getElementById("navbar");
-    navbar.classList.toggle("active");
-}
-
 // ----- FAVORITOS E PLAYER -----
 
 document.addEventListener("DOMContentLoaded", () => {

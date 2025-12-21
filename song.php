@@ -58,5 +58,6 @@ $musicas = [
     </div>
 
     <script src="Js/song.js"></script>
+    <script src="Js/navbar.js"></script>
 </body>
 </html>
