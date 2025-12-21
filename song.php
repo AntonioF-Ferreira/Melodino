@@ -21,8 +21,9 @@ $musicas = [
 
     <div id="navbar" class="navbar">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="songs.php">Songs</a></li>
+            <li><a href="index.php">Página Principal</a></li>
+            <li><a href="song.php">Músicas</a></li>
+            <li><a href="create_song.php">Criar Músicas</a></li>
         </ul>
     </div>
 
@@ -56,6 +57,6 @@ $musicas = [
         </div>
     </div>
 
-    <script src="Js/script.js"></script>
+    <script src="Js/song.js"></script>
 </body>
 </html>
